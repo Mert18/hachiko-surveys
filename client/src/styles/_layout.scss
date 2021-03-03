@@ -8,13 +8,15 @@
 }
 
 .quest {
+    width: 60%;
     padding: 2em;
-    border: 2px solid black;
-
+    position: relative;
     &__options {
         display: flex;
+        align-items: flex-end;
         justify-content: center;
         margin-top: 2em;
+        height: 60%;
         button {
             border: none;
             border-radius: 50%;
@@ -28,7 +30,7 @@
         }
         button:hover {
             cursor: pointer;
-            transform: scale(.8);
+            transform: scale(.9);
         }
         .zero {
             
